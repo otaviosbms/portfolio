@@ -1,0 +1,64 @@
+
+body{
+    background-color: rgb(25,26,33); 
+}
+
+.topboxcontainer{
+    background-color: rgb(40,42,54);
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 15px;
+    width: 1820px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.rightboxcontainer{
+    background-color: rgb(40,42,54);
+    margin-top: 35px;
+    margin-left: -10px;
+    width: 370px;
+    height: 670px;
+    border-radius: 20px;
+    left: 1510px;
+    top: 280px;
+    position: absolute;
+}
+
+.infoboxcontainer{
+    background-color:rgb(40,42,54);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 15px;
+    width: 1420px;
+    height: 670px;
+    border-radius: 20px;
+}
+
+
+
+.foto{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.topboxcontent{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.rightboxcontent{
+    text-align: center;
+    color: white;
+}
+
+.infoboxcontent{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
