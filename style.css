@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(25,26,33); 
+    background-color: rgb(25,26,33);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb:hover{
 /*layout containers*/
 
 .topboxcontainer{
-    background-color: rgb(40,42,54);
+    background-color:  rgb(40,42,54);
     margin-top: 35px;
     margin-left: 50px;
     margin-right: 15px;
@@ -102,6 +102,9 @@ body::-webkit-scrollbar-thumb:hover{
 
 .infoboxcontent p{
     padding-top: 20px;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .rightboxcontent p {
@@ -173,3 +176,21 @@ h1{
     padding-left: 115px;
     padding-top: 20px;
 }
+
+
+/* dark mode */
+
+
+
+.temas{
+    margin-top: 10px;
+}
+
+.modoclaroback{
+    background: white;
+}
+
+.modoclarobox{
+    background-color: grey;
+}
+
