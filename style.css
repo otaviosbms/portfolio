@@ -76,7 +76,7 @@ body::-webkit-scrollbar-thumb:hover{
 
 .topboxcontent{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 150px;
 }
 
 .rightboxcontent{
@@ -143,7 +143,7 @@ h1{
 
 .foto{
     width: 200px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 25px;
     border-radius: 15px;
 }
@@ -174,19 +174,35 @@ h1{
 }
 
 
-/* dark mode */
+/* botoes tema */
 
 
 #btnclaro, #btnescuro{
     border-radius: 10px;
-    margin-top: 10px;
     background-color: transparent;
     border-width: 2px;
     width: 45px;
     height: 45px;
     font-weight: bold;
     padding-left: 4px;
+    margin-right: 4px;
+    font-family: 'Rubik', sans-serif;
 }
+
+.temas{
+    position: absolute;
+    bottom: 560px;
+    left: 1755px;
+}
+
+.modoescuroestilobutton{
+    color: white;
+    border-color: white;
+}
+
+
+/* hovers */
+
 
 #btnclaro:hover{
     cursor: pointer;
@@ -196,21 +212,12 @@ h1{
     cursor: pointer;
 }
 
-
-.temas{
-    position: absolute;
-    bottom: 640px;
-    left: 1725px;
-}
-
-
 /* modo claro */
 
 .modoclaroback{
     background: rgb(167, 164, 164);
     color: black;
 }
-
 
 .modoclarotopbox{
     background-color: white;
@@ -260,4 +267,3 @@ h1{
     top: 680px;
     position: absolute;
 }
-

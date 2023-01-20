@@ -15,6 +15,8 @@ btnclaro.onclick = function claro(){
     rightbox.className = "modoclarorightbox";
     infobox.className = "modoclaroinfobox";
     nicho.className = "modoclaronicho";
+    btnclaro.className = ""
+    btnescuro.className = ""
 }
 
 btnescuro.onclick = function escuro(){
@@ -24,4 +26,6 @@ btnescuro.onclick = function escuro(){
     rightbox.className = "rightboxcontainer a";
     infobox.className = "infoboxcontainer";
     nicho.className = "nicho";
+    btnclaro.className = "modoescuroestilobutton"
+    btnescuro.className = "modoescuroestilobutton"
 }
