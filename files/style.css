@@ -208,8 +208,8 @@ h1{
 /* botoes tema */
 
 #btntema{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 #btntemasol{
@@ -218,9 +218,10 @@ h1{
 }
 
 .temas{
-    position: absolute;
-    bottom: 610px;
-    left: 1805px;
+    position: relative;
+    bottom: 160px;
+    right: 20px;
+    text-align: end;
 }
 
 /* hovers */
