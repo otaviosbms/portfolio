@@ -24,7 +24,6 @@ body::-webkit-scrollbar-thumb:hover{
     background-color: #525356;
 }
 
-
 /*layout containers*/
 
 .topboxcontainer{
@@ -76,7 +75,7 @@ body::-webkit-scrollbar-thumb:hover{
 
 .topboxcontent{
     text-align: center;
-    padding-top: 150px;
+    padding-top: 140px;
 }
 
 .rightboxcontent{
@@ -117,7 +116,6 @@ body::-webkit-scrollbar-thumb:hover{
 .nichocontent p{
     padding-top: 20px;
 }
-
 /* hovers*/
 
 .rightboxcontent a:hover{
@@ -125,8 +123,12 @@ body::-webkit-scrollbar-thumb:hover{
     cursor: pointer;
 }
 
-
 /*titiulos*/
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
 
 h1{
     font-size: 25px;
@@ -134,12 +136,6 @@ h1{
 }
 
 /*imagens*/
-
-.nightcity{
-    width: 600px;
-    height: 250px;
-    padding-right: 1000px;
-}
 
 .foto{
     width: 200px;
@@ -209,42 +205,31 @@ h1{
     height: 60px;
 }
 
-
 /* botoes tema */
 
+#btntema{
+    width: 40px;
+    height: 40px;
+}
 
-#btnclaro, #btnescuro{
-    border-radius: 10px;
-    background-color: transparent;
-    border-width: 2px;
+#btntemasol{
     width: 45px;
     height: 45px;
-    font-weight: bold;
-    padding-left: 4px;
-    margin-right: 4px;
-    font-family: 'Rubik', sans-serif;
 }
 
 .temas{
     position: absolute;
     bottom: 610px;
-    left: 1755px;
+    left: 1805px;
 }
-
-.modoescuroestilobutton{
-    color: white;
-    border-color: white;
-}
-
 
 /* hovers */
 
-
-#btnclaro:hover{
+#btntema:hover{
     cursor: pointer;
 }
 
-#btnescuro:hover{
+#btntemasol:hover{
     cursor: pointer;
 }
 
