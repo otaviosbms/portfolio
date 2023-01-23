@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="files/reset.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="files/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 <body class="modoclaroback">
     <header id="topbox" class="modoclarotopbox">
         <div class="topboxcontent">
-            <h1>< Otavio Sbms \></h1>
+            <h2><div id="app"></div></h2>
         </div>
     </header>
 
@@ -50,7 +51,6 @@
             <h1>CONHECIMENTOS</h1>
             <p>
 
-
             </p>
             
             <div class="logos">
@@ -63,12 +63,12 @@
         </div>
     </div>
 
-    <div id="botoestema" class="temas">
-        <button id="btnescuro">Dark</button>
-        <button id="btnclaro">Light</button>
+    <div id="temasimg" class="temas">
+        <img onclick="trocar_tema()" id="btntema" src="images\lua.png">
     <div>
 
-    <script src="files/script.js"></script>
+        <script src="files/typeeffect.js"></script>
+    <script src="files/temas.js"></script>
 </body>
 
 </html>
