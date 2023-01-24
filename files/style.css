@@ -28,54 +28,50 @@ body::-webkit-scrollbar-thumb:hover{
 
 .topboxcontainer{
     background-color: rgb(40,42,54);
-    margin-top: 35px;
-    margin-left: 50px;
-    margin-right: 15px;
-    width: 1820px;
-    height: 300px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 250px;
     border-radius: 20px;
     text-align: center;
 }
 
 .rightboxcontainer{
     background-color: rgb(40,42,54);
-    margin-top: 35px;
-    margin-left: -10px;
-    width: 370px;
-    height: 670px;
+    width: 20%;
+
     border-radius: 20px;
-    left: 1510px;
-    top: 330px;
-    position: absolute;
+    position: relative;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 .infoboxcontainer{
     background-color:rgb(40,42,54);
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 15px;
-    width: 1420px;
-    height: 670px;
+
+    width: 80%;
+
     border-radius: 20px;
 }
 
 .nicho{
     background-color:  rgb(25,26,33);
-    margin-top: 30px;
-    margin-left: 85px;
-    width: 1350px;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
     height: 300px;
     border-radius: 20px;
-    top: 625px;
-    position: absolute;
+
+    position: relative;
 }
 
 /*conteudos*/
 
 .topboxcontent{
     text-align: center;
-    padding-top: 140px;
+    padding-top: 100px;
 }
 
 .rightboxcontent{
@@ -84,13 +80,15 @@ body::-webkit-scrollbar-thumb:hover{
 
 .infoboxcontent{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 5%;
+
     font-size: 20px;
 }
 
 .nichocontent{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 5%;
+    position: relative;
 }
 
 /*config conteudos*/
@@ -98,14 +96,8 @@ body::-webkit-scrollbar-thumb:hover{
 .infoboxcontent p{
     padding-top: 20px;
     text-align: justify;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.rightboxcontent p {
-    padding-top: 40px;
-    text-align: left;
-    padding-left: 170px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .rightboxcontent a{
@@ -113,9 +105,10 @@ body::-webkit-scrollbar-thumb:hover{
     text-decoration: none;
 }
 
-.nichocontent p{
-    padding-top: 20px;
+.nichocontent div{
+    justify-content: center;
 }
+
 /* hovers*/
 
 .rightboxcontent a:hover{
@@ -135,48 +128,68 @@ h1{
     font-weight: bold;
 }
 
-/*imagens*/
+/*imagens right box*/
 
 .foto{
-    width: 200px;
-    margin-top: 80px;
+    width: 80%;
     margin-bottom: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 15px;
 }
 
 .linkedinimg{
     width: 35px;
-    position: absolute;
-    left: 0px;
-    padding-left: 115px;
-    padding-top: 20px;
 }
 
 .githubimg{
     width: 45px;
-    position: absolute;
-    left: 0px;
-
-    padding-left: 115px;
-    padding-top: 20px;
 }
 
 .instagramimg{
     width: 40px;
-    position: absolute;
-    left: 0px;
-    padding-left: 115px;
-    padding-top: 20px;
 }
 
-/* logos */
+.mailimg{
+    width: 40px;
+}
+
+.linkedinimg:hover, .githubimg:hover, .instagramimg:hover, .mailimg:hover{
+    cursor: pointer;
+}
+
+
+.contatosflexboxmaster{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contatosflexboximg{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.contatosflexboxlinks{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 55px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+
+/* logos do nicho */
 
 .logos{
     display: flex;
     flex-direction: row;
-    padding-top: 40px;
-    padding-left: 460px;
-    gap: 30px;
+    padding-top: 3%;
+    gap: 35px;
     align-items: flex-end;
 }
 
@@ -205,6 +218,19 @@ h1{
     height: 60px;
 }
 
+
+.html:hover, .css:hover, .js:hover, .py:hover{
+    width: 63px;
+    height: 63px;
+    cursor: pointer;
+}
+
+.php:hover{
+    width: 83px;
+    height: 43px;
+    cursor: pointer;
+}
+
 /* botoes tema */
 
 #btntema{
@@ -219,7 +245,7 @@ h1{
 
 .temas{
     position: relative;
-    bottom: 160px;
+    bottom: 120px;
     right: 20px;
     text-align: end;
 }
@@ -228,10 +254,14 @@ h1{
 
 #btntema:hover{
     cursor: pointer;
+    width: 38px;
+    height: 38px;
 }
 
 #btntemasol:hover{
     cursor: pointer;
+    width: 45px;
+    height: 45px;
 }
 
 /* modo claro */
@@ -243,25 +273,23 @@ h1{
 
 .modoclarotopbox{
     background-color: white;
-    margin-top: 35px;
-    margin-left: 50px;
-    margin-right: 15px;
-    width: 1820px;
-    height: 300px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 250px;
     border-radius: 20px;
     text-align: center;
 }
 
 .modoclarorightbox{
     background-color: white;
-    margin-top: 35px;
-    margin-left: -10px;
-    width: 370px;
-    height: 670px;
+    width: 20%;
+
     border-radius: 20px;
-    left: 1510px;
-    top: 330px;
-    position: absolute;
+    position: relative;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 .modoclarorightbox a{
@@ -270,22 +298,34 @@ h1{
 
 .modoclaroinfobox{
     background-color:white;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 15px;
-    width: 1420px;
-    height: 670px;
+
+    width: 80%;
+
     border-radius: 20px;
+
+
 }
 
 .modoclaronicho{
     background-color: rgb(167, 164, 164);
-    margin-top: 30px;
-    margin-left: 85px;
-    width: 1350px;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
     height: 300px;
     border-radius: 20px;
-    top: 625px;
-    position: absolute;
+
+    position: relative;
+}
+
+/* corpo do site flexbox */
+
+.flexboxinforight{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }

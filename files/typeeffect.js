@@ -4,11 +4,12 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('</ Otávio ')
+typewriter.typeString('Otávio ')
     .pauseFor(1000)
-    .typeString('SBMz >')
+    .typeString('SBMS ')
     .pauseFor(1500)
-    .deleteChars(3)
-    .typeString('S >')
+    .typeString('- Portfólio')
+    .pauseFor(1500)
+    .deleteChars(12)
     .pauseFor(2500)
     .start();;
