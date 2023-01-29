@@ -6,6 +6,12 @@ var rightbox = document.getElementById('rightbox');
 var infobox = document.getElementById('infobox');
 var nicho = document.getElementById('nicho');
 
+var html = document.getElementById('html');
+var css = document.getElementById('css');
+var js = document.getElementById('js');
+var php = document.getElementById('php');
+var py = document.getElementById('py');
+
 
 function escuro()
 {
@@ -15,6 +21,12 @@ rightbox.className = "rightboxcontainer";
 rightbox.className = "rightboxcontainer a";
 infobox.className = "infoboxcontainer";
 nicho.className = "nicho";
+
+html.className = "html"
+css.className = "css"
+js.className = "js"
+php.className = "php"
+py.className = "py"
 }
 
 function claro()
@@ -24,6 +36,12 @@ function claro()
     rightbox.className = "modoclarorightbox";
     infobox.className = "modoclaroinfobox";
     nicho.className = "modoclaronicho";
+
+    html.className = "html-claro"
+    css.className = "css-claro"
+    js.className = "js-claro"
+    php.className = "php-claro"
+    py.className = "py-claro"
 }
 
 var tema;

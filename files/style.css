@@ -190,45 +190,34 @@ h1{
     flex-direction: row;
     padding-top: 3%;
     gap: 35px;
-    align-items: flex-end;
+    align-items: center;
 }
 
-.html{
+.html,.css,.js,.py{
     width: 60px;
     height: 60px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(22, 23, 29);
 }
-
-.css{
-    width: 60px;
-    height: 60px;
-}
-
-.js{
-    width: 60px;
-    height: 60px;
-}
-
 .php{
     width: 80px;
     height: 40px;
-}
-
-.py{
-    width: 60px;
-    height: 60px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    background-color: rgb(22, 23, 29);
 }
 
 
 .html:hover, .css:hover, .js:hover, .py:hover{
-    width: 63px;
-    height: 63px;
     cursor: pointer;
+    transition: 800ms;
+    background-color: rgb(40,42,54);
 }
-
 .php:hover{
-    width: 83px;
-    height: 43px;
     cursor: pointer;
+    transition: 800ms;
+    background-color: rgb(40,42,54);
 }
 
 /* botoes tema */
@@ -317,6 +306,36 @@ h1{
 
     position: relative;
 }
+
+/* modo claro logos */
+
+.html-claro,.css-claro,.js-claro,.py-claro{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(139, 137, 137);
+}
+.php-claro{
+    width: 80px;
+    height: 40px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    background-color: rgb(139, 137, 137);
+}
+
+
+.html-claro:hover, .css-claro:hover, .js-claro:hover, .py-claro:hover{
+    cursor: pointer;
+    transition: 800ms;
+    background-color: white;
+}
+.php-claro:hover{
+    cursor: pointer;
+    transition: 800ms;
+    background-color: white;
+}
+
 
 /* corpo do site flexbox */
 
