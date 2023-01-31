@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb:hover{
     margin-right: 5%;
     width: 90%;
     height: 250px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb:hover{
     background-color: rgb(40,42,54);
     width: 20%;
 
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
     padding-bottom: 3%;
     padding-top: 3%;
@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb:hover{
 
     width: 80%;
 
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .nicho{
@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb:hover{
     margin-left: 5%;
     width: 90%;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
 
     position: relative;
 }
@@ -135,7 +135,7 @@ h1{
     margin-bottom: 25px;
     margin-left: 10%;
     margin-right: 10%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .linkedinimg{
@@ -267,7 +267,7 @@ h1{
     margin-right: 5%;
     width: 90%;
     height: 250px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -275,7 +275,7 @@ h1{
     background-color: white;
     width: 20%;
 
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
     padding-bottom: 3%;
     padding-top: 3%;
@@ -290,7 +290,7 @@ h1{
 
     width: 80%;
 
-    border-radius: 20px;
+    border-radius: 10px;
 
 
 }
@@ -302,7 +302,7 @@ h1{
     margin-left: 5%;
     width: 90%;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
 
     position: relative;
 }
