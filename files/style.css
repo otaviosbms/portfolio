@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb:hover{
 
 .nicho{
     background-color:  rgb(25,26,33);
-    margin-top: 8%;
+    margin-top: 6%;
     margin-right: 5%;
     margin-left: 5%;
     width: 90%;
@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb:hover{
 
 .nichocontent{
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
     position: relative;
 }
 
@@ -107,6 +107,10 @@ body::-webkit-scrollbar-thumb:hover{
 
 .nichocontent div{
     justify-content: center;
+}
+
+.nichocontent p{
+    margin-top: 2%;;
 }
 
 /* hovers*/
@@ -245,12 +249,14 @@ h1{
     cursor: pointer;
     width: 38px;
     height: 38px;
+    transition: 150ms;
 }
 
 #btntemasol:hover{
     cursor: pointer;
     width: 45px;
     height: 45px;
+    transition: 150ms;
 }
 
 /* modo claro */
@@ -297,7 +303,7 @@ h1{
 
 .modoclaronicho{
     background-color: rgb(167, 164, 164);
-    margin-top: 8%;
+    margin-top: 6%;
     margin-right: 5%;
     margin-left: 5%;
     width: 90%;
@@ -342,9 +348,9 @@ h1{
 .flexboxinforight{
     display: flex;
     flex-direction: row;
-    gap: 3%;
+    gap: 2%;
     margin-bottom: 3%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
 }
