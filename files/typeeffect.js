@@ -1,15 +1,13 @@
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
-    loop: true
+    loop: false
 });
 
-typewriter.typeString('Otávio ')
+typewriter.typeString('Portfólio')
+    .pauseFor(2000)
+    .deleteChars(9)
+    .typeString('Otávio ')
     .pauseFor(1000)
-    .typeString('SBMS ')
-    .pauseFor(1500)
-    .typeString('- Portfólio')
-    .pauseFor(1500)
-    .deleteChars(12)
-    .pauseFor(2500)
-    .start();;
+    .typeString('SBMS')
+    .start();

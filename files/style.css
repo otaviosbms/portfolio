@@ -28,12 +28,12 @@ body::-webkit-scrollbar-thumb:hover{
 
 .topboxcontainer{
     background-color: rgb(40,42,54);
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    margin-top: 1%;
+
+    width: 98%;
     height: 250px;
-    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
     text-align: center;
 }
 
@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb:hover{
     background-color: rgb(40,42,54);
     width: 20%;
 
-    border-radius: 10px;
+
     position: relative;
     padding-bottom: 3%;
     padding-top: 3%;
@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb:hover{
 
     width: 80%;
 
-    border-radius: 10px;
+
 }
 
 .nicho{
@@ -62,7 +62,6 @@ body::-webkit-scrollbar-thumb:hover{
     margin-left: 5%;
     width: 90%;
     height: 300px;
-    border-radius: 10px;
 
     position: relative;
 }
@@ -123,19 +122,19 @@ body::-webkit-scrollbar-thumb:hover{
 /*titiulos*/
 
 h2{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 45px;
+
 }
 
 h1{
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 26px;
+
 }
 
 /*imagens right box*/
 
 .foto{
-    width: 80%;
+    width: 60%;
     margin-bottom: 25px;
     margin-left: 10%;
     margin-right: 10%;
@@ -238,7 +237,7 @@ h1{
 
 .temas{
     position: relative;
-    bottom: 120px;
+    bottom: 125px;
     right: 20px;
     text-align: end;
 }
@@ -268,12 +267,12 @@ h1{
 
 .modoclarotopbox{
     background-color: white;
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    margin-top: 1%;
+
+    width: 98%;
     height: 250px;
-    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
     text-align: center;
 }
 
@@ -281,7 +280,7 @@ h1{
     background-color: white;
     width: 20%;
 
-    border-radius: 10px;
+
     position: relative;
     padding-bottom: 3%;
     padding-top: 3%;
@@ -296,7 +295,7 @@ h1{
 
     width: 80%;
 
-    border-radius: 10px;
+
 
 
 }
@@ -308,7 +307,6 @@ h1{
     margin-left: 5%;
     width: 90%;
     height: 300px;
-    border-radius: 10px;
 
     position: relative;
 }
@@ -348,9 +346,10 @@ h1{
 .flexboxinforight{
     display: flex;
     flex-direction: row;
-    gap: 2%;
-    margin-bottom: 3%;
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    gap: 0.7%;
+    margin-bottom: 1%;
+    margin-top: 0.7%;
+    margin-left: 1%;
+    margin-right: 1%;
+
 }
