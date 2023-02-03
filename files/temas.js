@@ -1,16 +1,22 @@
-var temasimg =  document.getElementById('temasimg');
+const temasimg =  document.getElementById('temasimg');
 
-var body = document.querySelector('body');
-var topbox = document.getElementById('topbox');
-var rightbox = document.getElementById('rightbox');
-var infobox = document.getElementById('infobox');
-var nicho = document.getElementById('nicho');
+const body = document.querySelector('body');
+const topbox = document.getElementById('topbox');
+const rightbox = document.getElementById('rightbox');
+const infobox = document.getElementById('infobox');
+const nicho = document.getElementById('nicho');
 
-var html = document.getElementById('html');
-var css = document.getElementById('css');
-var js = document.getElementById('js');
-var php = document.getElementById('php');
-var py = document.getElementById('py');
+const html = document.getElementById('html');
+const css = document.getElementById('css');
+const js = document.getElementById('js');
+const php = document.getElementById('php');
+const py = document.getElementById('py');
+
+
+const insta = document.getElementById('instagram');
+const linkedin = document.getElementById('linkedin');
+const git = document.getElementById('github');
+const mail = document.getElementById('mail');
 
 
 function escuro()
@@ -27,6 +33,13 @@ css.className = "css"
 js.className = "js"
 php.className = "php"
 py.className = "py"
+
+linkedin.innerHTML = "<img src='images/social-icons/linkedin-claro.png' class='linkedinimg' ></img>"
+insta.innerHTML = "<img src='images/social-icons/instagram-claro.png' class='instagramimg' ></img>"
+git.innerHTML = "<img src='images/social-icons/Github-claro.png' class='githubimg' ></img>"
+mail.innerHTML = "<img src='images/social-icons/mail-claro.png' class='mailimg' ></img>"
+
+
 }
 
 function claro()
@@ -42,9 +55,14 @@ function claro()
     js.className = "js-claro"
     php.className = "php-claro"
     py.className = "py-claro"
+
+    linkedin.innerHTML = "<img src='images/social-icons/linkedin.png' class='linkedinimg' ></img>"
+    insta.innerHTML = "<img src='images/social-icons/instagram.png' class='instagramimg' ></img>"
+    git.innerHTML = "<img src='images/social-icons/Github.png' class='githubimg' ></img>"
+    mail.innerHTML = "<img src='images/social-icons/mail.png' class='mailimg' ></img>"
 }
 
-var tema;
+var tema = "claro";
 
 function trocar_tema()
 {
@@ -52,9 +70,7 @@ function trocar_tema()
     escuro();
     temasimg.innerHTML = "<img onclick='trocar_tema()' id='btntemasol' src='images/sol.png'>"
     return tema = "escuro";
-}
-
-else{
+}else{
     claro();
     temasimg.innerHTML = "<img onclick='trocar_tema()' id='btntema' src='images/lua.png'>"
     return tema = "claro";

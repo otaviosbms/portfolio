@@ -127,14 +127,14 @@ h2{
 }
 
 h1{
-    font-size: 26px;
+    font-size: 25px;
 
 }
 
 /*imagens right box*/
 
 .foto{
-    width: 60%;
+    width: 65%;
     margin-bottom: 25px;
     margin-left: 10%;
     margin-right: 10%;
@@ -180,8 +180,8 @@ h1{
     display: flex;
     flex-direction: column;
     text-align: left;
-    gap: 55px;
-    margin-top: 18px;
+    gap: 59px;
+    margin-top: 16px;
     margin-left: 10px;
 }
 
