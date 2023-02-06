@@ -369,14 +369,20 @@ h1{
 
 @media only screen and (max-width: 450px) {
 
+    .modoclarotopbox, .topboxcontainer{
+
+
+    }
+
 
 
     .logos{
         display: flex;
         flex-direction: column;
+
     }
 
-    .modoclarorightbox{
+    .modoclarorightbox, .rightboxcontainer{
 
         width: 40%;
         position: relative;
@@ -384,13 +390,6 @@ h1{
         padding-top: 3%;
     }
 
-
-    .rightboxcontainer{
-        width: 40%;
-        position: relative;
-        padding-bottom: 3%;
-        padding-top: 3%;
-    }
 
     .rightboxcontent{
         font-size: 16px;
@@ -416,13 +415,24 @@ h1{
     
     .infoboxcontent {
         margin-bottom: 20px;
+        overflow-y: auto;
+        height: 250px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
+    .nichocontent{
+        overflow-y: auto;
+        height: 250px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .foto{
-        width: 80%;
+        width: 85%;
         margin-bottom: 25px;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
         border-radius: 10px;
     }
 }
