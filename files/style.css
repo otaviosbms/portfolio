@@ -33,7 +33,6 @@ body::-webkit-scrollbar-thumb:hover{
     margin-top: 0.7%;
     margin-left: 1%;
     margin-right: 1%;
-
 }
 
 
@@ -292,8 +291,6 @@ h1{
 .modoclarorightbox{
     background-color: white;
     width: 20%;
-
-
     position: relative;
     padding-bottom: 3%;
     padding-top: 3%;
@@ -306,7 +303,6 @@ h1{
 .modoclaroinfobox{
     background-color:white;
     width: 80%;
-
 }
 
 .modoclaronicho{
@@ -366,4 +362,27 @@ h1{
 
 .rodapeinfo a:hover{
     text-decoration: underline;
+}
+
+
+/* RESPONSIVO */
+
+
+@media only screen and (max-width: 450px) {
+
+
+
+    .logos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modoclarorightbox{
+        background-color: white;
+        width: 40%;
+        position: relative;
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
+
 }
