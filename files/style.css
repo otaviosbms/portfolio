@@ -414,4 +414,15 @@ h1{
         padding-right: 10px;
     }
     
+    .infoboxcontent {
+        margin-bottom: 20px;
+    }
+    
+    .foto{
+        width: 80%;
+        margin-bottom: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+    }
 }
