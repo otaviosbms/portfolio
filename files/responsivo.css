@@ -10,6 +10,19 @@
 
     }
 
+    .topboxcontent h2{
+        padding-top: 10px;
+    }
+
+    .temas{
+        bottom: 140px;
+        right: 15px;
+    }
+
+    .flexboxinfo{
+        gap: 3px;
+    }
+
     .modoclarorightbox, .rightboxcontainer{
 
         width: 40%;
@@ -49,6 +62,15 @@
 
     }
     
+    .infoboxcontent p{
+        text-align: start;
+    }
+
+    .nichocontent p{
+        margin-top: 20px;
+        text-align: center;
+    }
+
     .nichocontent{
         overflow-y: auto;
         height: 250px;
@@ -63,11 +85,6 @@
         margin-right: 5%;
         border-radius: 10px;
     }
-
-
-.nichocontent p{
-    margin-top: 20px;
-}
 
 .logos{
     gap: 8px;
