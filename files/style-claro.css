@@ -70,3 +70,72 @@
     background-color: rgb(167, 164, 164);
 }
 
+/* logos do nicho */
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+    gap: 35px;
+    align-items: center;
+}
+
+.html,.css,.js,.py{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(40,42,54);
+}
+.php{
+    width: 80px;
+    height: 40px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    background-color: rgb(40,42,54);
+}
+
+.html:hover, .css:hover, .js:hover, .py:hover{
+    cursor: pointer;
+    transition: 700ms;
+    background-color: rgb(25,26,33);
+}
+.php:hover{
+    cursor: pointer;
+    transition: 700ms;
+    background-color: rgb(25,26,33);
+}
+
+/* botoes tema */
+
+#btntema{
+    width: 35px;
+    height: 35px;
+}
+
+#btntemasol{
+    width: 42px;
+    height: 42px;
+}
+
+.temas{
+    position: relative;
+    bottom: 125px;
+    right: 20px;
+    text-align: end;
+}
+
+
+#btntema:hover{
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    transition: 150ms;
+}
+
+#btntemasol:hover{
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    transition: 150ms;
+}
