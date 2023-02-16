@@ -12,7 +12,6 @@ const js = document.getElementById('js');
 const php = document.getElementById('php');
 const py = document.getElementById('py');
 
-
 const insta = document.getElementById('instagram');
 const linkedin = document.getElementById('linkedin');
 const git = document.getElementById('github');

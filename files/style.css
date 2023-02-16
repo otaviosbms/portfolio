@@ -88,13 +88,15 @@ body::-webkit-scrollbar-thumb:hover{
 
 .rightboxcontent{
     text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .infoboxcontent{
     text-align: center;
-    padding-top: 5%;
-
+    padding-top: 3%;
     font-size: 20px;
+    padding-bottom: 3%;
 }
 
 .nichocontent{
@@ -107,7 +109,7 @@ body::-webkit-scrollbar-thumb:hover{
 /*config conteudos*/
 
 .infoboxcontent p{
-    padding-top: 20px;
+    padding-top: 2%;
     text-align: justify;
     padding-left: 5%;
     padding-right: 5%;
@@ -142,6 +144,11 @@ h2{
 
 h1{
     font-size: 25px;
+
+}
+
+h3{
+    font-size: 20;
 
 }
 
@@ -196,6 +203,55 @@ h1{
     gap: 59px;
     margin-top: 16px;
     margin-left: 10px;
+}
+
+
+/* logos do nicho */
+
+.conhecimentos{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    gap: 5%;
+    align-items: start;
+
+}
+
+
+.linguagens, .marcacao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+/* edit itens */
+
+.html,.css,.js,.py{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+
+}
+.php{
+    width: 80px;
+    height: 40px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+
+}
+
+.html:hover, .css:hover, .js:hover, .py:hover{
+    cursor: pointer;
+    transition: 700ms;
+    background-color: rgb(25,26,33);
+}
+.php:hover{
+    cursor: pointer;
+    transition: 700ms;
+    background-color: rgb(25,26,33);
 }
 
 /* rodapé */

@@ -4,7 +4,8 @@
 
 @media only screen and (max-width: 450px) {
 
-    .logos{
+    .conhecimentos{
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
 
@@ -59,23 +60,21 @@
         height: 250px;
         padding-left: 10px;
         padding-right: 10px;
-
+        margin-top: 6px;
     }
     
     .infoboxcontent p{
         text-align: start;
+        margin-top: 20px;
     }
 
-    .nichocontent p{
-        margin-top: 20px;
-        text-align: center;
-    }
 
     .nichocontent{
         overflow-y: auto;
         height: 250px;
         padding-left: 10px;
         padding-right: 10px;
+        margin-top: 6px;
     }
 
     .foto{
@@ -89,7 +88,6 @@
 .logos{
     gap: 8px;
 }
-
 
 
 }
