@@ -4,22 +4,6 @@
 
 @media only screen and (max-width: 450px) {
 
-    .conhecimentos{
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .topboxcontent h2{
-        padding-top: 10px;
-    }
-
-    .temas{
-        bottom: 140px;
-        right: 15px;
-    }
-
     .flexboxinfo{
         gap: 3px;
     }
@@ -36,24 +20,10 @@
         font-size: 16px;
     }
 
-    .contatosflexboxlinks{
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        gap: 59px;
-        margin-top: 16px;
-        margin-left: 10px;
+    .topboxcontent h2{
+        padding-top: 10px;
     }
 
-    .contatosflexboxmaster{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-top: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
     .infoboxcontent {
         margin-bottom: 20px;
         overflow-y: auto;
@@ -85,9 +55,38 @@
         border-radius: 10px;
     }
 
-.logos{
-    gap: 8px;
-}
+    .logos{
+        gap: 8px;
+    }
 
+    .temas{
+        bottom: 140px;
+        right: 15px;
+    }
 
+    .conhecimentos{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contatosflexboxlinks{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 59px;
+        margin-top: 16px;
+        margin-left: 10px;
+    }
+
+    .contatosflexboxmaster{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
 }
