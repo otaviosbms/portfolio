@@ -174,6 +174,7 @@ h3{
 
 .linkedinimg{
     width: 35px;
+    padding-right: 5px;
 }
 
 .githubimg{
@@ -182,37 +183,33 @@ h3{
 
 .instagramimg{
     width: 40px;
+    padding-right: 5px;
+
 }
 
 .mailimg{
     width: 40px;
+    padding-right: 5px;
 }
 
 .linkedinimg:hover, .githubimg:hover, .instagramimg:hover, .mailimg:hover{
     cursor: pointer;
 }
 
-.contatosflexboxmaster{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 30px;
-}
+
 
 .contatosflexboximg{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    align-items: center;
+    margin-top: 10%;
 
 }
 
-.contatosflexboxlinks{
+.contatos{
     display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 59px;
-    margin-top: 16px;
-    margin-left: 10px;
+    align-items: center;
 }
 
 

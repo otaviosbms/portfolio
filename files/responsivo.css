@@ -71,22 +71,12 @@
 
     }
 
-    .contatosflexboxlinks{
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        gap: 59px;
-        margin-top: 16px;
-        margin-left: 10px;
-    }
 
-    .contatosflexboxmaster{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-top: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
+
+    .contatosflexboximg{
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
 }
