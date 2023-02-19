@@ -100,9 +100,20 @@ body::-webkit-scrollbar-thumb:hover{
 .nichocontent{
     text-align: center;
     padding-top: 3%;
-    position: relative;
     padding-bottom: 3%;
 }
+
+.infoboxcontent h1{
+    text-align: left;
+    padding-left: 5%;
+}
+
+.nichocontent h1{
+    text-align: left;
+    padding-left: 5%;
+}
+
+
 
 /*config conteudos*/
 
@@ -142,6 +153,7 @@ h2{
 
 h1{
     font-size: 25px;
+
 
 }
 
