@@ -1,0 +1,82 @@
+
+/* RESPONSIVO */
+
+
+@media only screen and (max-width: 450px) {
+
+    .flexboxinfo{
+        gap: 3px;
+    }
+
+    .modoclarorightbox, .rightboxcontainer{
+
+        width: 40%;
+        position: relative;
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
+
+    .rightboxcontent{
+        font-size: 16px;
+    }
+
+    .topboxcontent h2{
+        padding-top: 10px;
+    }
+
+    .infoboxcontent {
+        margin-bottom: 20px;
+        overflow-y: auto;
+        height: 250px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 6px;
+    }
+    
+    .infoboxcontent p{
+        text-align: start;
+        margin-top: 20px;
+    }
+
+
+    .nichocontent{
+        overflow-y: auto;
+        height: 250px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 6px;
+    }
+
+    .foto{
+        width: 85%;
+        margin-bottom: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
+    }
+
+    .logos{
+        gap: 8px;
+    }
+
+    .temas{
+        bottom: 140px;
+        right: 15px;
+    }
+
+    .conhecimentos{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+    .contatosflexboximg{
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+}
