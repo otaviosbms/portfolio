@@ -81,4 +81,11 @@
         padding-right: 15px;
     }
     
+    .rodapeinfo {
+        text-align: center;
+        padding-top: 2px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
 }

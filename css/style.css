@@ -1,6 +1,6 @@
 body{
     background-color: rgb(25,26,33);
-    font-family: 'Rubik', sans-serif;
+    font-family: 'XMTrafficRegular';
     color: white;
 }
 
@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb:hover{
 
 .rightboxcontent a{
     color: white;
-    text-decoration: none;
+    
 }
 
 .nichocontent div{
@@ -142,23 +142,27 @@ body::-webkit-scrollbar-thumb:hover{
 .rightboxcontent a:hover{
     color: #F179C6;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /*titiulos*/
 
 h2{
-    font-size: 45px;
+    font-size: 50px;
+    font-weight: bold;
 
 }
 
 h1{
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
 
 
 }
 
 h3{
-    font-size: 20;
+    font-size: 20px;
+
 
 }
 
@@ -238,7 +242,7 @@ h3{
 .html,.css,.js,.py{
     width: 50px;
     height: 50px;
-    border-radius: 10px;
+
     padding: 15px 15px 15px 15px;
 
 }
@@ -246,18 +250,20 @@ h3{
     width: 70px;
     height: 35px;
     padding: 20px 15px 20px 15px;
-    border-radius: 10px;
+
 
 }
 
 .html:hover, .css:hover, .js:hover, .py:hover{
     cursor: pointer;
-    transition: 700ms;
+
     background-color: rgb(25,26,33);
+
+
 }
 .php:hover{
     cursor: pointer;
-    transition: 700ms;
+
     background-color: rgb(25,26,33);
 }
 
@@ -266,15 +272,14 @@ h3{
 .rodapeinfo {
     text-align: center;
     padding-top: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .rodapeinfo a{
-    text-decoration: none;
     color: #b35791;
 }
 
 .rodapeinfo a:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
