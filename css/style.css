@@ -133,10 +133,6 @@ body::-webkit-scrollbar-thumb:hover{
     justify-content: center;
 }
 
-.nichocontent p{
-    margin-top: 2%;;
-}
-
 /* hovers*/
 
 .rightboxcontent a:hover{
@@ -229,7 +225,7 @@ h3{
 }
 
 
-.linguagens, .marcacao{
+.linguagens, .marcacao, .bancos{
     display: flex;
     flex-direction: column;
     gap: 10px;
