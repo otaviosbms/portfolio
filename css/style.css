@@ -225,7 +225,7 @@ h3{
 }
 
 
-.linguagens, .marcacao, .bancos{
+.linguagens, .marcacao, .bancos, .ferramentas{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -235,33 +235,27 @@ h3{
 
 /* edit itens */
 
-.html,.css,.js,.py{
+.icons{
     width: 50px;
     height: 50px;
-
     padding: 15px 15px 15px 15px;
     border: 2px solid rgb(25,26,33);
-
 }
+
 .php{
     width: 70px;
     height: 35px;
     padding: 20px 15px 20px 15px;
     border: 2px solid rgb(25,26,33);
-
-
 }
 
-.html:hover, .css:hover, .js:hover, .py:hover{
+.icons:hover{
     cursor: pointer;
-
     background-color: rgb(25,26,33);
-
-
 }
+
 .php:hover{
     cursor: pointer;
-
     background-color: rgb(25,26,33);
 }
 
