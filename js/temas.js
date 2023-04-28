@@ -11,6 +11,7 @@ const css = document.getElementById('css');
 const js = document.getElementById('js');
 const php = document.getElementById('php');
 const py = document.getElementById('py');
+const sql = document.getElementById('sql');
 
 const insta = document.getElementById('instagram');
 const linkedin = document.getElementById('linkedin');
@@ -27,11 +28,12 @@ rightbox.className = "rightboxcontainer a";
 infobox.className = "infoboxcontainer";
 nicho.className = "nicho";
 
-html.className = "html"
-css.className = "css"
-js.className = "js"
+html.className = "icons"
+css.className = "icons"
+js.className = "icons"
 php.className = "php"
-py.className = "py"
+py.className = "icons"
+sql.className = "icons"
 
 linkedin.innerHTML = "<img src='images/social-icons/linkedin-claro.png' class='linkedinimg' ></img>"
 insta.innerHTML = "<img src='images/social-icons/instagram-claro.png' class='instagramimg' ></img>"
@@ -49,11 +51,12 @@ function claro()
     infobox.className = "modoclaroinfobox";
     nicho.className = "modoclaronicho";
 
-    html.className = "html-claro"
-    css.className = "css-claro"
-    js.className = "js-claro"
+    html.className = "icons-claro"
+    css.className = "icons-claro"
+    js.className = "icons-claro"
     php.className = "php-claro"
-    py.className = "py-claro"
+    py.className = "icons-claro"
+    sql.className = "icons-claro"
 
     linkedin.innerHTML = "<img src='images/social-icons/linkedin.png' class='linkedinimg' ></img>"
     insta.innerHTML = "<img src='images/social-icons/instagram.png' class='instagramimg' ></img>"
