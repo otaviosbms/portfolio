@@ -12,10 +12,11 @@ const js = document.getElementById('js');
 const php = document.getElementById('php');
 const py = document.getElementById('py');
 const sql = document.getElementById('sql');
+const git = document.getElementById('git-logo');
 
 const insta = document.getElementById('instagram');
 const linkedin = document.getElementById('linkedin');
-const git = document.getElementById('github');
+const github = document.getElementById('github');
 const mail = document.getElementById('mail');
 
 
@@ -34,10 +35,11 @@ js.className = "icons"
 php.className = "php"
 py.className = "icons"
 sql.className = "icons"
+git.className = "icons"
 
 linkedin.innerHTML = "<img src='images/social-icons/linkedin-claro.png' class='linkedinimg' ></img>"
 insta.innerHTML = "<img src='images/social-icons/instagram-claro.png' class='instagramimg' ></img>"
-git.innerHTML = "<img src='images/social-icons/Github-claro.png' class='githubimg' ></img>"
+github.innerHTML = "<img src='images/social-icons/Github-claro.png' class='githubimg' ></img>"
 mail.innerHTML = "<img src='images/social-icons/mail-claro.png' class='mailimg' ></img>"
 
 
@@ -57,10 +59,11 @@ function claro()
     php.className = "php-claro"
     py.className = "icons-claro"
     sql.className = "icons-claro"
+    git.className = "icons-claro"
 
     linkedin.innerHTML = "<img src='images/social-icons/linkedin.png' class='linkedinimg' ></img>"
     insta.innerHTML = "<img src='images/social-icons/instagram.png' class='instagramimg' ></img>"
-    git.innerHTML = "<img src='images/social-icons/Github.png' class='githubimg' ></img>"
+    github.innerHTML = "<img src='images/social-icons/Github.png' class='githubimg' ></img>"
     mail.innerHTML = "<img src='images/social-icons/mail.png' class='mailimg' ></img>"
 }
 
