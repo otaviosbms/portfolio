@@ -35,7 +35,7 @@ js.className = "icons"
 php.className = "php"
 py.className = "icons"
 sql.className = "icons"
-git.className = "icons"
+git.className = "git-logo"
 
 linkedin.innerHTML = "<img src='images/social-icons/linkedin-claro.png' class='linkedinimg' ></img>"
 insta.innerHTML = "<img src='images/social-icons/instagram-claro.png' class='instagramimg' ></img>"
@@ -59,7 +59,7 @@ function claro()
     php.className = "php-claro"
     py.className = "icons-claro"
     sql.className = "icons-claro"
-    git.className = "icons-claro"
+    git.className = "git-logo-claro"
 
     linkedin.innerHTML = "<img src='images/social-icons/linkedin.png' class='linkedinimg' ></img>"
     insta.innerHTML = "<img src='images/social-icons/instagram.png' class='instagramimg' ></img>"
