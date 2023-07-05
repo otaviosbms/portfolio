@@ -1,13 +1,22 @@
-var app = document.getElementById('app');
+var title = document.getElementById('title');
+var subtitle = document.getElementById('subtitle');
 
-var typewriter = new Typewriter(app, {
+var typewriterTitle = new Typewriter(title, {
     loop: false
 });
 
-typewriter.typeString('Portfólio')
+var typewriterSubtitle = new Typewriter(subtitle, {
+    loop: false
+});
+
+typewriterTitle.typeString('Portfólio')
     .pauseFor(2000)
     .deleteChars(9)
     .typeString('Otávio ')
     .pauseFor(1000)
-    .typeString('SBMS')
+    .typeString('Sbms')
+    .start();
+
+typewriterSubtitle.pauseFor(8000)
+    .typeString('Desenvolvedor FullStack')
     .start();

@@ -1,0 +1,82 @@
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+
+.parent {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);  /*alterar aqui a quantidade de linhas do grid */
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    }
+    
+    .div1 { border-radius: 20px; grid-area: 1 / 1 / 2 / 2; }
+    .div2 { border-radius: 20px; grid-area: 1 / 2 / 2 / 3; }
+    .div3 { border-radius: 20px; grid-area: 2 / 1 / 3 / 2; }
+    .div4 { border-radius: 20px; grid-area: 2 / 2 / 3 / 3; }
+    .div5 { border-radius: 20px; grid-area: 3 / 1 / 4 / 2; }
+    .div6 { border-radius: 20px; grid-area: 3 / 2 / 4 / 3; }
+
+    .div1,.div2,.div3,.div4,.div5,.div6 {
+        
+        padding-top: 2%;
+        background-color: lightslategrey;
+        text-align: center;
+        padding-left: 2%;
+        padding-right: 2%;
+        transition: transform 0.3s;
+
+    }
+
+    .div1:hover,.div2:hover,.div3:hover,.div4:hover,.div5:hover,.div6:hover{
+        cursor: pointer;
+        transform: scale(0.98);
+    }
+
+    .top{
+        margin-top: 8%;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+
+    .switch:hover{
+        cursor: pointer;
+    }
+
+    .social{
+        width: 2.0%;
+        height: auto;
+        transition: transform 0.3s;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .socialClaro{
+        width: 2.0%;
+        height: auto;
+        transition: transform 0.3s;
+        margin-left: 2px;
+        margin-right: 2px;
+        filter: invert(1);
+    }
+
+    .social:hover,.socialClaro:hover{
+        transform: scale(1.10);
+    }
+
+    .icons{
+        font-size: 40px;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .link{
+        color: inherit;
+        text-decoration: none;
+    }
+

@@ -1,0 +1,33 @@
+@media only screen and (max-width: 450px) {
+
+    .sobre{
+        overflow-y: auto;
+        height: 250px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+
+    .parent{
+        width: 100%;
+    }
+
+    .top{
+        margin-top: 25%;
+    }
+
+    .social,.socialClaro{
+        width: 10%;
+    }
+
+    .projetos{
+        margin-bottom: -20%;
+    }
+
+    .div1 a h5, .div2 a h5, .div3 a h5, .div4 a h5, .div5 a h5, .div6 a h5{
+        margin-top: 8px;
+    }
+
+
+
+}
