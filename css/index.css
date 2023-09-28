@@ -80,3 +80,6 @@ body.dark-mode {
         text-decoration: none;
     }
 
+    .textoContainers{
+        text-align: justify;
+    }
