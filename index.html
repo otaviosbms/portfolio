@@ -1,145 +1,383 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="dark">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/responsible.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="icon" href="img/github.svg">
-  <title>Otávio Sbms</title>
+  <title>Otávio Sbms — Desenvolvedor Backend & IA</title>
+  <meta name="description" content="Otávio Sbms, Desenvolvedor Backend Pleno especializado em TypeScript, NestJS e LangGraph. Construção de APIs escaláveis e automações com IA.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 
 </head>
 
 <body>
 
-  <div class="top">
-    
-    <h1 id="title"></h1>
-    <h5 id="subtitle"></h5>
-  
-    <div class="mt-3">
-      <a href="mailto:otaviosbms@hotmail.com" target="_blank" ><img id="email" class="social" src="img/email.svg"></a>
-      <a href="https://github.com/otaviosbms" target="_blank" ><img id="github" class="social" src="img/github.svg"></a>
-      <a href="https://www.linkedin.com/in/otaviosbms/" target="_blank" ><img id="linkedin" class="social" src="img/linkedin.svg"></a>
-      <a href="https://www.instagram.com/otaviosbms/" target="_blank" ><img id="instagram" class="social" src="img/instagram.svg"></a>
-    </div>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">&lt;Otávio<span class="gradient-text">/</span>Sbms&gt;</a>
 
+      <nav class="nav-links" id="navLinks">
+        <a href="#sobre">Sobre</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-    <div>
-      <div class="form-check form-switch mt-3 d-flex justify-content-center">
-        <input class="switch form-check-input" autofocus type="checkbox" id="darkModeSwitch">
-        <label class="form-check-label ms-2" for="darkModeSwitch">
-          <i id="themeIcon" class="fa fa-moon"></i>
-        </label>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+          <i class="fa-solid fa-sun"></i>
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="nav-burger" id="navBurger" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </div>
-  
-  </div>
+  </header>
 
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-blobs" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+    </div>
 
-  <div class="sobre container mt-5">
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">Olá, eu sou</p>
+      <h1 class="hero-title reveal">Otávio <span class="gradient-text">Sbms</span></h1>
+      <h2 class="hero-typed reveal"><span id="typed"></span><span class="cursor">|</span></h2>
 
-    <h2>Sobre mim</h2>
-    <p>
-        Oi meu nome é Otávio de Souza Barata Moraes dos Santos, tenho 18 anos, atualmente moro em Marília - SP e curso Ciência da Computação
-        no Centro Universitário Eurípides de Marília (UNIVEM). Sou um amante de Tecnologia, muito curioso, e sempre procuro aprender cada dia um pouco mais.
-    <br>
-        Atualmente tenho foco no desenvolvimento de aplicações e sistemas Web utilizando o framework Laravel, buscando me tornar um desenvolvedor Full-stack.
-    </p>
+      <p class="hero-lead reveal">
+        Desenvolvedor Backend Pleno com <strong>3 anos de experiência</strong> construindo APIs robustas, integrações
+        e produtos de <strong>IA</strong> com foco em resultado real de negócio.
+      </p>
 
+      <div class="hero-cta reveal">
+        <a href="#projetos" class="btn btn-primary">Ver projetos <i class="fa-solid fa-arrow-down"></i></a>
+        <a href="files/CV-Otavio-SBMS.pdf" download class="btn btn-ghost"><i class="fa-solid fa-download"></i> Baixar
+          CV</a>
+      </div>
 
-  </div>
+      <div class="hero-socials reveal">
+        <a href="mailto:otaviosbms@hotmail.com" target="_blank" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/otaviosbms" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/otaviosbms/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/otaviosbms/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/5514998723399" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
 
+    <div class="stats-strip reveal">
+      <div class="container stats-grid">
+        <div class="stat">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Anos de experiência</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">Estágio → Pleno</span>
+          <span class="stat-label">Trajetória na PedBot</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Redes farmacêuticas nacionais atendidas</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">IA</span>
+          <span class="stat-label">Agentes em produção</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div class="projetos container mt-5">
-    <h2 class="mb-5">Principais Projetos</h2>
-    <div class="d-flex justify-content-center">
-      <div class="parent mb-5">
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <p class="section-tag reveal">Sobre mim</p>
+      <h2 class="section-title reveal">Quem é Otávio</h2>
 
-          <div class="div1">
-            <a class="link" href="https://github.com/otaviosbms/Laravel-fullstack-ControleEstoque">
-              <h5>Laravel-fullstack-ControleEstoque</h5>
-              <p>Projeto de uma aplicação web completa para o controle do estoque de um estabelecimento.<br>Foi utilizado em seu desenvolvimento PHP com o Framework Laravel e banco de dados SQLite.</p>
-                <div class="icons mb-3">
-                  <i class="fab fa-php"></i>
-                  <i class="fab fa-laravel"></i>
-                </div>
-            </a>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Sou desenvolvedor <strong>Backend Pleno</strong>, natural de Marília - SP, cursando Bacharelado em
+            Ciências da Computação no <strong>Centro Universitário Eurípides de Marília (UNIVEM)</strong>.
+          </p>
+          <p>
+            Nos últimos 3 anos venho evoluindo dentro da <strong>PedBot</strong> (Grupo Funcional Health Tech), onde
+            cresci de estagiário a desenvolvedor pleno construindo produtos de IA aplicados ao varejo farmacêutico,
+            com impacto direto em conversão, automação de vendas e experiência do consumidor final.
+          </p>
+          <p>
+            Hoje meu foco é <strong>TypeScript</strong>, <strong>NestJS</strong> e <strong>LangGraph</strong> —
+            unindo backend robusto e agentes de IA para resolver problemas reais de negócio. Curioso por natureza,
+            gosto de aprender um pouco mais a cada dia e apoiar desenvolvedores em início de carreira.
+          </p>
+        </div>
+
+        <div class="about-terminal reveal">
+          <div class="terminal">
+            <div class="terminal-bar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="terminal-title">whoami.sh</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="prompt">$</span> whoami</p>
+              <p class="out">Otávio de Souza Barata Moraes dos Santos</p>
+              <p><span class="prompt">$</span> cat role.txt</p>
+              <p class="out">&gt; Desenvolvedor Backend Pleno</p>
+              <p class="out">&gt; Marília, SP - Brasil</p>
+              <p><span class="prompt">$</span> cat stack.txt</p>
+              <p class="out">&gt; TypeScript · NestJS · LangGraph</p>
+              <p class="out">&gt; APIs escaláveis + Agentes de IA</p>
+              <p><span class="prompt">$</span> echo $STATUS</p>
+              <p class="out ok">&gt; Aberto a novas oportunidades ✔</p>
+              <p class="blink"><span class="prompt">$</span> <span class="cursor">▌</span></p>
+            </div>
           </div>
-
-        <div class="div2">
-          <a class="link" href="https://github.com/otaviosbms/Laravel-fullstack-series-list">
-            <h5>Laravel-fullstack_API-series-list</h5>
-            <p>Projeto de uma aplicação web Completa + API para controle de Séries, temporadas e episódios.<br>Foi utilizado em seu desenvolvimento PHP com o Framework Laravel e banco de dados SQLite.</p>
-            <div class="icons mb-3">
-              <i class="fab fa-php"></i>
-              <i class="fab fa-laravel"></i>
-            </div>
-          </a>
         </div>
-
-        <div class="div3">
-          <a class="link" href="https://github.com/otaviosbms/Laravel-API-SocialNetwork">
-            <h5>Laravel-API-SocialNetwork</h5>
-            <p>Projeto de uma API de rede social simplificada, tendo como base de inspiração o X/Twitter.<br> Foi utilizado em seu desenvolvimento PHP com o Framework Laravel e banco de dados SQLite.</p>
-            <div class="icons mb-3">
-              <i class="fab fa-php"></i>
-              <i class="fab fa-laravel"></i>
-            </div>
-          </a>
-        </div>
-
-        <!-- <div class="div4">
-          <a class="link" href="http://www.google.com">
-            <h5>Projeto fulltack</h5>
-            <p>Projeto Web utilizando PHP com o Framework Laravel e banco de dados SQLite</p>
-            <div class="icons">
-              <i class="fab fa-php"></i>
-              <i class="fab fa-laravel"></i>
-            </div>
-          </a>
-        </div>
-
-        <div class="div5">
-          <a class="link" href="http://www.google.com">
-            <h5>Projeto fulltack</h5>
-            <p>Projeto Web utilizando PHP com o Framework Laravel e banco de dados SQLite</p>
-            <div class="icons">
-              <i class="fab fa-php"></i>
-              <i class="fab fa-laravel"></i>
-            </div>
-          </a>
-        </div>
-
-        <div class="div6">
-          <a class="link" href="http://www.google.com">
-            <h5>Projeto fulltack</h5>
-            <p>Projeto Web utilizando PHP com o Framework Laravel e banco de dados SQLite</p>
-            <div class="icons">
-              <i class="fab fa-php"></i>
-              <i class="fab fa-laravel"></i>
-            </div>
-          </a>
-        </div> -->
-
       </div>
     </div>
-  </div>
-  
+  </section>
 
-  <footer class="mt-5 mb-4">
-        <p>© 2023 Otávio Sbms
-        <br>Publicado com <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+  <!-- EXPERIÊNCIA -->
+  <section class="section section-alt" id="experiencia">
+    <div class="container">
+      <p class="section-tag reveal">Trajetória</p>
+      <h2 class="section-title reveal">Experiência Profissional</h2>
+
+      <div class="ladder reveal">
+        <span>Estágio</span><i class="fa-solid fa-arrow-right"></i>
+        <span>Júnior I</span><i class="fa-solid fa-arrow-right"></i>
+        <span>Júnior II</span><i class="fa-solid fa-arrow-right"></i>
+        <span class="ladder-current">Pleno</span>
+      </div>
+
+      <div class="exp-card reveal">
+        <div class="exp-head">
+          <div>
+            <h3>Desenvolvedor Pleno · PedBot</h3>
+            <p class="exp-sub">Grupo Funcional Health Tech — Remoto</p>
+          </div>
+          <span class="exp-date">nov/2023 — atual</span>
+        </div>
+
+        <p class="exp-desc">
+          Atuação no desenvolvimento, manutenção e evolução de sistemas web e APIs escaláveis, contribuindo
+          ativamente para produtos de IA aplicados ao varejo farmacêutico, além de automações internas que
+          otimizam os processos e fluxos de trabalho da equipe e da empresa.
+        </p>
+
+        <div class="exp-highlights">
+          <div class="highlight-card">
+            <i class="fa-solid fa-comment-medical"></i>
+            <h4>Chatbot IA — PBM Boehringer Ingelheim</h4>
+            <p>Implementação de chatbot interativo com IA para o programa de benefícios (PBM) da <strong>Boehringer
+                Ingelheim do Brasil</strong>, em parceria com o Grupo Funcional Health Tech.</p>
+          </div>
+          <div class="highlight-card">
+            <i class="fa-solid fa-robot"></i>
+            <h4>MarIA — Chatbot de vendas com agentes de IA</h4>
+            <p>Utilizado por grandes redes nacionais como <strong>Drogarias Venâncio</strong> e <strong>Farmácia
+                Indiana</strong>, com POC aprovada pelo <strong>Grupo DPSP</strong> (Drogarias São Paulo e Drogarias
+              Pacheco), segundo maior grupo farmacêutico do Brasil.</p>
+          </div>
+        </div>
+
+        <div class="exp-tasks">
+          <div><i class="fa-solid fa-check"></i> Desenvolvimento full stack de aplicações e serviços backend</div>
+          <div><i class="fa-solid fa-check"></i> Criação e manutenção de APIs REST e GraphQL</div>
+          <div><i class="fa-solid fa-check"></i> Filas com RabbitMQ para processamento em background</div>
+          <div><i class="fa-solid fa-check"></i> Fluxos de agentes de IA e automações</div>
+          <div><i class="fa-solid fa-check"></i> Integração de serviços e pipelines de processamento</div>
+          <div><i class="fa-solid fa-check"></i> Decisões de arquitetura de software</div>
+          <div><i class="fa-solid fa-check"></i> Code review e mentoria técnica</div>
+          <div><i class="fa-solid fa-check"></i> Testes unitários e Clean Architecture</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="section-tag reveal">Habilidades</p>
+      <h2 class="section-title reveal">Stack & Ferramentas</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <i class="fa-solid fa-server"></i>
+          <h3>Backend & Dados</h3>
+          <div class="chips">
+            <span>TypeScript</span><span>Node.js</span><span>NestJS</span><span>TypeORM</span>
+            <span>MySQL</span><span>PostgreSQL</span><span>REST</span><span>GraphQL</span><span>RabbitMQ</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <i class="fa-solid fa-brain"></i>
+          <h3>IA & Automação</h3>
+          <div class="chips">
+            <span>LangGraph</span><span>Agentes de IA</span><span>OpenAI</span>
+            <span>Prompt Engineering</span><span>Automações com IA</span><span>Integrações com LLMs</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <i class="fa-solid fa-display"></i>
+          <h3>Frontend</h3>
+          <div class="chips">
+            <span>React</span><span>Tailwind CSS</span><span>HTML5</span><span>CSS3</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <i class="fa-solid fa-toolbox"></i>
+          <h3>Práticas & Ferramentas</h3>
+          <div class="chips">
+            <span>Docker</span><span>Git</span><span>Clean Architecture</span>
+            <span>Testes Unitários</span><span>Arquitetura de Software</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="section section-alt" id="projetos">
+    <div class="container">
+      <p class="section-tag reveal">Trabalho</p>
+      <h2 class="section-title reveal">Projetos em Destaque</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card featured reveal">
+          <div class="project-top">
+            <span class="project-badge">Projeto Profissional</span>
+            <i class="fa-solid fa-robot project-icon"></i>
+          </div>
+          <h3>MarIA — Agentes de IA para vendas</h3>
+          <p>Chatbot de vendas baseado em agentes de IA em produção em grandes redes farmacêuticas nacionais, com POC
+            aprovada pelo Grupo DPSP. Desenvolvido na PedBot com LangGraph e integrações com LLMs.</p>
+          <div class="project-tags">
+            <span>LangGraph</span><span>NestJS</span><span>TypeScript</span><span>OpenAI</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <i class="fa-solid fa-magnifying-glass project-icon"></i>
+          </div>
+          <h3>OLX Scraper GraphQL API</h3>
+          <p>API GraphQL construída com Express e Apollo Server para coletar anúncios da OLX, com paginação e
+            filtragem por estado, utilizando Puppeteer com stealth para o scraping.</p>
+          <div class="project-tags">
+            <span>Node.js</span><span>GraphQL</span><span>Apollo Server</span><span>Puppeteer</span>
+          </div>
+          <a href="https://github.com/otaviosbms/olx_scraper_api" target="_blank" class="project-link">
+            <i class="fa-brands fa-github"></i> Ver repositório
+          </a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <i class="fa-solid fa-boxes-stacked project-icon"></i>
+          </div>
+          <h3>Controle de Estoque Full Stack</h3>
+          <p>Aplicação web completa para controle de estoque de um estabelecimento, com cadastro de produtos,
+            movimentações e relatórios.</p>
+          <div class="project-tags">
+            <span>PHP</span><span>Laravel</span><span>SQLite</span>
+          </div>
+          <a href="https://github.com/otaviosbms/Laravel-fullstack-ControleEstoque" target="_blank" class="project-link">
+            <i class="fa-brands fa-github"></i> Ver repositório
+          </a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <i class="fa-solid fa-people-group project-icon"></i>
+          </div>
+          <h3>API de Rede Social</h3>
+          <p>API de uma rede social simplificada, inspirada no X/Twitter, com autenticação, postagens e relações
+            entre usuários.</p>
+          <div class="project-tags">
+            <span>PHP</span><span>Laravel</span><span>SQLite</span>
+          </div>
+          <a href="https://github.com/otaviosbms/Laravel-API-SocialNetwork" target="_blank" class="project-link">
+            <i class="fa-brands fa-github"></i> Ver repositório
+          </a>
+        </article>
+
+      </div>
+
+      <div class="projects-more reveal">
+        <a href="https://github.com/otaviosbms" target="_blank" class="btn btn-ghost">
+          <i class="fa-brands fa-github"></i> Ver mais no GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMAÇÃO -->
+  <section class="section" id="formacao">
+    <div class="container">
+      <p class="section-tag reveal">Formação</p>
+      <h2 class="section-title reveal">Educação & Idiomas</h2>
+
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <h3>Bacharelado em Ciências da Computação</h3>
+            <p>Centro Universitário Eurípides de Marília (UNIVEM)</p>
+            <span class="edu-date">2023 — 2026</span>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <i class="fa-solid fa-language"></i>
+          <div>
+            <h3>Idiomas</h3>
+            <p>Português — Nativo</p>
+            <p>Inglês — Avançado</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section contact" id="contato">
+    <div class="container contact-inner reveal">
+      <p class="section-tag">Contato</p>
+      <h2 class="section-title">Vamos conversar?</h2>
+      <p class="contact-lead">Estou aberto a novas oportunidades e projetos. Me chame em qualquer um dos canais
+        abaixo.</p>
+
+      <div class="contact-actions">
+        <a href="mailto:otaviosbms@hotmail.com" class="btn btn-primary"><i class="fa-solid fa-envelope"></i>
+          otaviosbms@hotmail.com</a>
+        <a href="https://wa.me/5514998723399" target="_blank" class="btn btn-ghost"><i class="fa-brands fa-whatsapp"></i>
+          +55 (14) 99872-3399</a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com/otaviosbms" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/otaviosbms/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/otaviosbms/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Otávio Sbms · Marília - SP, Brasil</p>
+    <p>Publicado com <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
   </footer>
 
-
-  <script src="js/theme.js"></script>
-  <script src="js/typeeffect.js"></script>
-
+  <script src="js/main.js"></script>
 </body>
 
 </html>

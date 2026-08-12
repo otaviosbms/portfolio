@@ -1,0 +1,10 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio",
+      "port": 8790,
+      "url": "http://localhost:8790"
+    }
+  ]
+}
