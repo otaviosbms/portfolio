@@ -228,6 +228,28 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 html[data-theme="light"] .theme-toggle .fa-sun { opacity: 1; transform: rotate(0); }
 html[data-theme="light"] .theme-toggle .fa-moon { opacity: 0; transform: rotate(90deg); }
 
+.lang-toggle {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  position: relative;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: border-color 0.2s ease;
+}
+.lang-toggle:hover { border-color: var(--accent-2); }
+.lang-toggle span { position: absolute; transition: opacity 0.2s ease, transform 0.3s ease; }
+.lang-toggle .lang-pt { opacity: 1; transform: rotate(0); }
+.lang-toggle .lang-en { opacity: 0; transform: rotate(90deg); }
+html[data-lang="en"] .lang-toggle .lang-pt { opacity: 0; transform: rotate(-90deg); }
+html[data-lang="en"] .lang-toggle .lang-en { opacity: 1; transform: rotate(0); }
+
 .nav-burger {
   display: none;
   width: 40px; height: 40px;
