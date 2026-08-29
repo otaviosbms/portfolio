@@ -82,5 +82,31 @@ const observer = new IntersectionObserver(
 
 revealEls.forEach((el) => observer.observe(el));
 
+// ===== Nav scroll shadow =====
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 10);
+});
+
+// ===== Active nav link on scroll =====
+const navLinkEls = document.querySelectorAll('.nav-links a');
+const sectionEls = [...navLinkEls]
+  .map((link) => document.querySelector(link.getAttribute('href')))
+  .filter(Boolean);
+
+const sectionObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        navLinkEls.forEach((link) => {
+          link.classList.toggle('active', link.getAttribute('href') === `#${entry.target.id}`);
+        });
+      }
+    });
+  },
+  { rootMargin: '-45% 0px -50% 0px' }
+);
+
+sectionEls.forEach((section) => sectionObserver.observe(section));
+
 // ===== Footer year =====
 document.getElementById('year').textContent = new Date().getFullYear();
