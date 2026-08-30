@@ -102,9 +102,14 @@ component rules.
 These reflect explicit direction from the site owner — keep new copy aligned
 with them:
 
-- **Full Stack identity.** The site positions Otávio as a Full Stack
-  developer (not backend-only) — copy across the hero, about section and
-  terminal card should reflect both front-end and back-end work. The
+- **Unlabeled identity.** The site positions Otávio simply as a
+  "Desenvolvedor" / "Developer" — copy across the hero, about section and
+  terminal card must not pin the role down to Full Stack, Backend, or
+  Frontend. Skill-grouping headers in the Skills section (e.g. "Backend &
+  Dados", "Frontend") and individual project descriptions (e.g. a project
+  literally called "Full Stack") are fine as-is since they categorize
+  technologies or describe a specific project's architecture, not
+  Otávio's personal title — don't conflate the two when editing copy. The
   terminal-style `$` / `>_` logo and favicon (instead of a literal `</>`)
   is a CLI/dev-tools aesthetic choice, independent of that positioning —
   keep it, don't reintroduce `</>`-style branding.
