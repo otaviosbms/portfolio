@@ -102,10 +102,12 @@ component rules.
 These reflect explicit direction from the site owner — keep new copy aligned
 with them:
 
-- **Backend-first identity.** The site intentionally avoids frontend/HTML
-  visual metaphors (the logo and favicon were changed from `</>` to a
-  terminal-style `$` / `>_` on purpose). Don't reintroduce `</>`-style
-  branding.
+- **Full Stack identity.** The site positions Otávio as a Full Stack
+  developer (not backend-only) — copy across the hero, about section and
+  terminal card should reflect both front-end and back-end work. The
+  terminal-style `$` / `>_` logo and favicon (instead of a literal `</>`)
+  is a CLI/dev-tools aesthetic choice, independent of that positioning —
+  keep it, don't reintroduce `</>`-style branding.
 - **No industry over-emphasis.** Client/project descriptions were
   deliberately rewritten to lead with technology and architecture (APIs,
   LangGraph, agent orchestration, WhatsApp/MCP integrations) rather than the

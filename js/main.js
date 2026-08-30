@@ -33,12 +33,12 @@ document.querySelectorAll('.nav-links a').forEach((link) => {
 const typedEl = document.getElementById('typed');
 const rolesByLang = {
   pt: [
-    'Desenvolvedor Backend Pleno',
+    'Desenvolvedor Full Stack Pleno',
     'TypeScript · NestJS · LangGraph',
     'Automações & Agentes de IA'
   ],
   en: [
-    'Mid-level Backend Developer',
+    'Mid-level Full Stack Developer',
     'TypeScript · NestJS · LangGraph',
     'AI Automations & Agents'
   ]
@@ -132,7 +132,7 @@ const translationsEn = {
   'nav-burger-aria': 'Open menu',
 
   'hero-eyebrow': 'Hi, I’m',
-  'hero-lead': 'Mid-level Backend Developer with <strong>3 years of experience</strong> building robust APIs, integrations and <strong>AI</strong> products focused on real business outcomes.',
+  'hero-lead': 'Mid-level Full Stack Developer with <strong>3 years of experience</strong> building robust interfaces and APIs, integrations and <strong>AI</strong> products focused on real business outcomes.',
   'cta-projects': 'View projects <i class="fa-solid fa-arrow-down"></i>',
   'cta-cv': '<i class="fa-solid fa-download"></i> Download CV',
 
@@ -145,15 +145,15 @@ const translationsEn = {
 
   'about-tag': 'About me',
   'about-title': 'Who is Otávio',
-  'about-p1': 'I’m a <strong>Mid-level Backend Developer</strong>, born and raised in Marília - SP, Brazil, currently pursuing a Bachelor’s in Computer Science at <strong>Centro Universitário Eurípides de Marília (UNIVEM)</strong>.',
+  'about-p1': 'I’m a <strong>Mid-level Full Stack Developer</strong>, born and raised in Marília - SP, Brazil, currently pursuing a Bachelor’s in Computer Science at <strong>Centro Universitário Eurípides de Marília (UNIVEM)</strong>.',
   'about-p2': 'Over the past 3 years I’ve been growing at <strong>PedBot</strong> (Grupo Funcional Health Tech), where I went from intern to mid-level developer, architecting <strong>scalable APIs</strong> and <strong>AI</strong> products with autonomous agents in production, focused on performance, best practices and real business impact.',
-  'about-p3': 'Today my focus is <strong>TypeScript</strong>, <strong>NestJS</strong> and <strong>LangGraph</strong> — combining solid backend engineering with AI agents to solve real business problems. Naturally curious, I enjoy learning a bit more every day and supporting developers early in their careers.',
+  'about-p3': 'Today my focus is <strong>TypeScript</strong>, <strong>NestJS</strong> and <strong>LangGraph</strong> — combining front-end, solid back-end engineering and AI agents to solve real business problems. Naturally curious, I enjoy learning a bit more every day and supporting developers early in their careers.',
 
-  'term-role': '&gt; Mid-level Backend Developer',
+  'term-role': '&gt; Mid-level Full Stack Developer',
   'term-location': '&gt; Marília, SP - Brazil',
   'term-stack2': '&gt; Scalable APIs + AI Agents',
   'term-cmd-interests': 'cat interests.txt',
-  'term-interests': '&gt; Backend, applied AI and good architecture practices',
+  'term-interests': '&gt; Full Stack, applied AI and good architecture practices',
 
   'exp-tag': 'Journey',
   'exp-title': 'Professional Experience',
@@ -222,8 +222,8 @@ const translationsEn = {
   'footer-published': 'Published with',
   'footer-love': 'Made with ❤️',
 
-  'meta-title': 'Otávio Sbms — Backend & AI Developer',
-  'meta-description': 'Otávio Sbms, Mid-level Backend Developer specialized in TypeScript, NestJS and LangGraph. Building scalable APIs and AI automations.'
+  'meta-title': 'Otávio Sbms — Full Stack & AI Developer',
+  'meta-description': 'Otávio Sbms, Mid-level Full Stack Developer specialized in TypeScript, NestJS, React and LangGraph. Building interfaces, scalable APIs and AI automations.'
 };
 
 const i18nEls = document.querySelectorAll('[data-i18n]');
