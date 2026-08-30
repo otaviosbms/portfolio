@@ -203,6 +203,7 @@ const translationsEn = {
   'p5-desc': 'Complete web application for a business’s inventory control, with product registration, stock movements and reports.',
   'p6-title': 'Social Network API',
   'p6-desc': 'API for a simplified social network, inspired by X/Twitter, with authentication, posts and relationships between users.',
+  'p7-desc': 'Claude Code skill that audits and refactors other skills to cut token cost while preserving 100% of the functionality, with an audit, refactor and 1:1 quality gate pipeline.',
   'project-link': 'View repository',
   'see-more-github': 'See more on GitHub',
 
