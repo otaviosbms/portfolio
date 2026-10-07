@@ -137,8 +137,6 @@ const translationsEn = {
   'cta-cv': '<i class="fa-solid fa-download"></i> Download CV',
 
   'stat-years': 'Years of experience',
-  'stat-trajectory-number': 'Intern → Mid-level',
-  'stat-trajectory': 'Growth path at PedBot',
   'stat-tech': 'Technologies in the stack',
   'stat-ia-number': 'AI',
   'stat-agents': 'Agents in production',

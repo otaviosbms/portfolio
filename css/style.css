@@ -407,7 +407,7 @@ html[data-lang="en"] .lang-toggle .lang-en { opacity: 1; transform: rotate(0); }
 }
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 40px 24px;
 }
@@ -722,7 +722,6 @@ html[data-lang="en"] .lang-toggle .lang-en { opacity: 1; transform: rotate(0); }
   .about-photo { justify-self: center; }
   .exp-highlights, .skills-grid, .projects-grid, .edu-grid { grid-template-columns: 1fr; }
   .exp-tasks { grid-template-columns: 1fr; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 480px) {
