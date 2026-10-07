@@ -215,6 +215,7 @@ const translationsEn = {
   'edu2-title': 'Languages',
   'lang-pt': 'Portuguese — Native',
   'lang-en': 'English — Advanced',
+  'lang-es': 'Spanish — Basic',
 
   'contact-tag': 'Contact',
   'contact-title': 'Let’s talk?',
