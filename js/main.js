@@ -147,7 +147,7 @@ const translationsEn = {
   'about-title': 'Who is Otávio',
   'about-p1': 'I’m a <strong>Mid-level Fullstack Developer</strong>, born and raised in Marília - SP, Brazil, currently pursuing a Bachelor’s in Computer Science at <strong>Centro Universitário Eurípides de Marília (UNIVEM)</strong>.',
   'about-p2': 'Over the past 3 years I’ve been growing at <strong>PedBot</strong> (Grupo Funcional Health Tech), where I went from intern to mid-level developer, architecting <strong>scalable APIs</strong> and <strong>AI</strong> products with autonomous agents in production, focused on performance, best practices and real business impact.',
-  'about-p3': 'Today my focus is <strong>TypeScript</strong>, <strong>NestJS</strong> and <strong>LangGraph</strong> — combining front-end, solid back-end engineering and AI agents to solve real business problems. Naturally curious, I enjoy learning a bit more every day and supporting developers early in their careers.',
+  'about-p3': 'Today my focus is <strong>TypeScript</strong>, <strong>NestJS</strong> and <strong>LangGraph</strong> — combining front-end, solid back-end engineering and AI agents to solve real business problems. I’m also proficient in <strong>PHP</strong> and <strong>Laravel</strong>, with APIs and full applications built in that ecosystem. Naturally curious, I enjoy learning a bit more every day and supporting developers early in their careers.',
 
   'term-role': '&gt; Mid-level Fullstack Developer',
   'term-location': '&gt; Marília, SP - Brazil',
