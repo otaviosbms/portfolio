@@ -394,6 +394,15 @@ html[data-lang="en"] .lang-toggle .lang-en { opacity: 1; transform: rotate(0); }
 .about-text p { color: var(--text-muted); margin-bottom: 18px; font-size: 1.02rem; }
 .about-text strong { color: var(--text); }
 
+.about-photo { justify-self: end; width: 100%; max-width: 340px; }
+.about-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 30%;
+}
+.about-terminal { grid-column: 1 / -1; }
+
 .terminal {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -665,6 +674,7 @@ html[data-lang="en"] .lang-toggle .lang-en { opacity: 1; transform: rotate(0); }
   }
 
   .about-grid { grid-template-columns: 1fr; }
+  .about-photo { justify-self: center; }
   .exp-highlights, .skills-grid, .projects-grid, .edu-grid { grid-template-columns: 1fr; }
   .exp-tasks { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
