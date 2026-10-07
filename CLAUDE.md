@@ -102,10 +102,13 @@ component rules.
 These reflect explicit direction from the site owner — keep new copy aligned
 with them:
 
-- **Unlabeled identity.** The site positions Otávio simply as a
-  "Desenvolvedor" / "Developer" — copy across the hero, about section and
-  terminal card must not pin the role down to Full Stack, Backend, or
-  Frontend. Skill-grouping headers in the Skills section (e.g. "Backend &
+- **Identity: "Desenvolvedor Fullstack Pleno".** The site positions Otávio
+  as "Desenvolvedor Fullstack Pleno" / "Mid-level Fullstack Developer"
+  (hero lead, typed role, about text, terminal card, experience role title,
+  meta description). Use that exact wording for his personal title — don't
+  switch it to Backend/Frontend or drop "Fullstack". Career-stage mentions
+  (the experience ladder, "de estagiário a desenvolvedor
+  pleno") describe progression and stay without the label. Skill-grouping headers in the Skills section (e.g. "Backend &
   Dados", "Frontend") and individual project descriptions (e.g. a project
   literally called "Full Stack") are fine as-is since they categorize
   technologies or describe a specific project's architecture, not
