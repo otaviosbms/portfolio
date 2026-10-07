@@ -15,6 +15,9 @@
   --shadow: 0 18px 40px -22px rgba(0, 0, 0, 0.7);
   --radius: 8px;
   --radius-sm: 6px;
+  --grid-line: rgba(255, 255, 255, 0.035);
+  --glow: color-mix(in srgb, var(--accent) 9%, transparent);
+  --grain-opacity: 0.05;
   --font-heading: "Sora", sans-serif;
   --font-body: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
@@ -31,6 +34,9 @@ html[data-theme="light"] {
   --accent: #c81e1e;
   --accent-2: #b91c1c;
   --shadow: 0 18px 40px -26px rgba(0, 0, 0, 0.25);
+  --grid-line: rgba(0, 0, 0, 0.045);
+  --glow: color-mix(in srgb, var(--accent) 6%, transparent);
+  --grain-opacity: 0.035;
 }
 
 /* ===== Reset ===== */
@@ -46,6 +52,45 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: background-color 0.3s ease, color 0.3s ease;
   overflow-x: hidden;
+}
+
+/* Ambient background: faint grid, slow red glow and film grain */
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  pointer-events: none;
+}
+body::before {
+  inset: 0;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse 75% 65% at 50% 40%, #000 25%, transparent 100%);
+  mask-image: radial-gradient(ellipse 75% 65% at 50% 40%, #000 25%, transparent 100%);
+}
+body::after {
+  inset: -15%;
+  background:
+    radial-gradient(38vmax circle at 18% 22%, var(--glow), transparent 65%),
+    radial-gradient(32vmax circle at 82% 78%, var(--glow), transparent 65%);
+  animation: ambientDrift 40s ease-in-out infinite alternate;
+}
+@keyframes ambientDrift {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(4%, -3%); }
+  100% { transform: translate(-3%, 4%); }
+}
+
+.grain {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: var(--grain-opacity);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 img { max-width: 100%; display: block; }
@@ -76,7 +121,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height
 }
 
 .section { padding: 110px 0; }
-.section-alt { background: var(--bg-alt); }
+.section-alt { background: color-mix(in srgb, var(--bg-alt) 72%, transparent); }
 
 .section-tag {
   display: inline-block;
@@ -358,7 +403,7 @@ html[data-lang="en"] .lang-toggle .lang-en { opacity: 1; transform: rotate(0); }
   z-index: 1;
   margin-top: 90px;
   border-top: 1px solid var(--border);
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 80%, transparent);
 }
 .stats-grid {
   display: grid;
