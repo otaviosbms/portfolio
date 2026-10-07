@@ -196,6 +196,8 @@ const translationsEn = {
   'p1-desc': 'Sales chatbot based on AI agents in production, orchestrated with LangGraph and integrated with the WhatsApp API, adopted by large national retail chains, with a POC approved by Grupo DPSP.',
   'p8-title': 'MarIA Evals — Behavioral Regression Testing',
   'p8-desc': 'In-house framework that ensures changes to MarIA don’t break already-validated behaviors, testing real conversation scenarios end to end and validating directly against the database state — no LLM-as-judge required.',
+  'p9-title': 'PBM Chatbot — Boehringer Ingelheim',
+  'p9-desc': 'Conversational chatbot with AI agents orchestrated with LangGraph and integrated with the WhatsApp API, automating support for Boehringer Ingelheim Brazil’s patient benefit program (PBM), in partnership with Grupo Funcional Health Tech.',
   'p2-desc': 'GraphQL API built with Express and Apollo Server to collect OLX listings, with pagination and filtering by state, using Puppeteer with stealth for scraping.',
   'p3-desc': 'Unofficial API that exposes Jusbrasil searches (court cases, case law, legislation, official gazettes and legal doctrine) via REST and MCP, using a real browser to work around the site’s anti-bot protection.',
   'p4-desc': 'API that analyzes Spotify playlists: collects tracks, artists and metadata, calculates genre and duration stats, and generates AI-powered recommendations and insights (OpenAI/DeepSeek).',
